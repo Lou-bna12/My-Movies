@@ -12,16 +12,12 @@ h1{
 }
 
 .logo{
-    width: 50%;
+    width: 200px
     
 }
 
-.btn{
-    background-color: rgb(221, 184, 187);
-    color: white;
-    border-radius: 30px;
-    border: 3px solid rgb(221, 184, 187);
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+.bi-film{
+    font-size: 30px;
+    margin-right: 10px;
 }
