@@ -31,7 +31,7 @@
     </header>
  <main>
     <h2>Ajouter un nouveau film ou une série</h2>
-    <form method="get" class="container-fluid w-50">
+    <form method="POST" class="container-fluid w-50">
         <label for="title" class="form-label">Titre</label>
         <input type="text" name="tile" id="title" placeholder="Le titre du film/série" class="form-control">
         <label for="synopsis" class="form-label">Synopsis</label>
