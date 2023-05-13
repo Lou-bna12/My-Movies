@@ -12,9 +12,6 @@
 </head>
 
 <body>
-  <?php 
-  
-     ?>
  
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -39,6 +36,12 @@
     <h3 >Découvrez nos films et séries de l'année 2023 </h3>
     <p> Vous pouvez également ajouter vos films et séries préférés</p>
     <img class="logo m-3" src="./Images/logo.jpg" alt="logo.jpg">
+
+    <?php
+        /* foreach ($movies as $movie) {
+
+        } */
+    ?>
 
     <section class="container d-flex justify-content-center">
     <div class="card m-3" style="width: 18rem;">
