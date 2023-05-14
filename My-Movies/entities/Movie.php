@@ -14,6 +14,16 @@ class Movie {
     // Constructeur
 
     // Méthodes
-     
-    
+    public function getId(): init 
+    {
+        return $this-> id;
+    }
+
+    public function getTitle(): string 
+    {
+        return $this-> title;
+    }
+
+         
+
 }
