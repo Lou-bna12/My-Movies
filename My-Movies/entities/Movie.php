@@ -9,9 +9,11 @@ class Movie {
     private string $release_date;
     private init $category_id;
     private string $director; 
-    
+
 
     // Constructeur
 
     // Méthodes
+     
+    
 }
