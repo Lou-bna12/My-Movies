@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <?php
+  ?>
  
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -36,13 +38,7 @@
     <h3 >Découvrez nos films et séries de l'année 2023 </h3>
     <p> Vous pouvez également ajouter vos films et séries préférés</p>
     <img class="logo m-3" src="./Images/logo.jpg" alt="logo.jpg">
-
-    <?php
-        /* foreach ($movies as $movie) {
-
-        } */
-    ?>
-
+    
     <section class="container d-flex justify-content-center">
     <div class="card m-3" style="width: 18rem;">
       <img src="https://fr.web.img3.acsta.net/medias/nmedia/18/36/26/41/18737112.jpg" class="card-img-top" alt="300">
