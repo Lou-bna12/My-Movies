@@ -13,6 +13,20 @@
 
 <body>
   <?php
+
+  require_once "./entities/Movie.php"; 
+  $movie= new Movie([
+      'id'=>1,
+      'title'=>'Troiscent', 
+      'description'=>"L'histoire de la bataille des Thermopyles...", 
+      'director'=>'Zack Snyder', 
+      'image_url'=>'https://fr.web.img3.acsta.net/medias/nmedia/18/36/26/41/18737112.jpg', 
+      'release_date'=>'2023-01-01', 
+      'category_id'=>3
+
+       ]);
+
+   //$movie->setId(1)->setTitle('Troiscent')->setDescription("L'histoire de la bataille des Thermopyles...")->setDirector('Zack Snyder');
   
   ?>
  
@@ -44,9 +58,9 @@
     <div class="card m-3" style="width: 18rem;">
       <img src="https://fr.web.img3.acsta.net/medias/nmedia/18/36/26/41/18737112.jpg" class="card-img-top" alt="300">
       <div class="card-body">
-        <h5 class="card-title">300</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Aventure, Science fiction</h6>
-        <p class="card-text">Léonidas, roi de Sparte, mène 300 vaillants guerriers dans une bataille épique et sanglante dans les Thermopyles contre l'armée du roi Xerxès.</p>
+        <h5 class="card-title"><?= $movie->getTitle() ?></h5>
+        <h6 class="card-subtitle mb-2 text-muted"><?=$movie->getRelease_date() ?></h6>
+        <p class="card-text"><?= $movie->getDescription() ?></p>
         <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top"
         data-bs-custom-class="custom-tooltip"><i class="fa-solid fa-pen-to-square" title="Modifier"></i></a>
 

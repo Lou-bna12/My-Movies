@@ -13,7 +13,23 @@ class Movie {
 
     // Constructeur
 
-    // Méthodes 
+public function __construct(array $data)  {
+     $this->hydrate($data);
+}
+
+
+    // Méthodes
+public function hydrate(array $data): void 
+{
+    foreach ($data as $key => $value) {
+        $method = 'set' . ucfirst($key);
+        if (method_exists($this, $method)) {
+            $this->$method($value);
+        }
+    }
+}
+
+    //Getter 
 public function getId(): int 
 {
     return $this->id;
@@ -109,9 +125,9 @@ public function setTitle(string $title): self
 
 }
 
-$Troiscent= new Movie();
-$Troiscent->setId(1)->setTitle('Troiscent')->setDescription("L'histoire de la bataille des Thermopyles...")->setDirector('Zack Snyder');
-var_dump($Troiscent);
+
+
+
 
 
    
