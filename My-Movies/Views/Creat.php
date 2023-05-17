@@ -41,6 +41,8 @@
         <input type="url" name="imageUrl" id="imageUrl" placeholder="L'URL de l'image du film/série" class="form-control">
         <label for="releaseDate" class="form-label">Date de sortie</label>
         <input type="date" name="releaseDate" id="releaseDate" class="form-control">
+        <label for="director" class="form-label">Réalisateur</label>
+        <input type="text" name="director" id="director" placeholder="Le réalisateur du film/série" class="form-control">
         <label for="category" class="form-label">Catégories</label>
         <select name="categoryId" id="category" class="form-select">
            <option vlaue="" seleted>--Séléctionner une catégorie--</option>
