@@ -23,8 +23,9 @@
       'image_url'=>'https://fr.web.img3.acsta.net/medias/nmedia/18/36/26/41/18737112.jpg', 
       'release_date'=>'2023-01-01', 
       'category_id'=>3
-
        ]);
+
+      
 
    //$movie->setId(1)->setTitle('Troiscent')->setDescription("L'histoire de la bataille des Thermopyles...")->setDirector('Zack Snyder');
   
@@ -59,7 +60,7 @@
       <img src="https://fr.web.img3.acsta.net/medias/nmedia/18/36/26/41/18737112.jpg" class="card-img-top" alt="300">
       <div class="card-body">
         <h5 class="card-title"><?= $movie->getTitle() ?></h5>
-        <h6 class="card-subtitle mb-2 text-muted"><?=$movie->getRelease_date() ?></h6>
+        <h6 class="card-subtitle mb-2 text-muted"><?= $movie->getRelease_date() ?></h6>
         <p class="card-text"><?= $movie->getDescription() ?></p>
         <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top"
         data-bs-custom-class="custom-tooltip"><i class="fa-solid fa-pen-to-square" title="Modifier"></i></a>
@@ -73,8 +74,8 @@
       <img src="https://fr.web.img5.acsta.net/medias/nmedia/18/91/71/02/20159308.jpg" class="card-img-top"  alt="Ce que le jour doit à la nuit">
       <div class="card-body">
         <h5 class="card-title">Ce que le jour doit à la nuit</h5>
-        <h6 class="card-subtitle mb-2 text-md-center">Romance, Drame</h6>
-        <p class="card-text">Algérie, années 1930. Venu de la campagne, Younès, 9 ans, emménage avec sa famille à Oran, après que la terre de son père a été incendiée, puis saisie par un créancier. Mohamed, son oncle pharmacien, et Madeleine, son épouse française en mal d'enfant, prennent le garçon sous leur toit pour l'arracher à la misère qui lui est promise.</p>
+        <h6 class="card-subtitle mb-2 text-md-center">2012-09-12</h6>
+        <p class="card-text">Algérie, années 1930. Venu de la campagne, Younès, 9 ans, emménage avec sa famille à Oran...</p>
         <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top"
         data-bs-custom-class="custom-tooltip"><i class="fa-solid fa-pen-to-square" title="Modifier"></i></a>
 
